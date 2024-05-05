@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Linkedin",
+    "icon": "fa-brands fa-linkedin",
+    "url": "https://www.linkedin.com/in/joy-heurtaux-568a99172/?originalSubdomain=fr"
+  }, {
+    "name": "Email",
+    "icon": "fa-solid fa-envelope",
+    "url": "mailto:joy.heu@outlook.fr"
+  }, {
+    "name": "GitLab",
+    "icon": "fa-brands fa-gitlab",
+    "url": "https://gitlab.com/Jojo_16"
+  }, {
+    "name": "GitHub",
+    "icon": "fa-brands fa-github",
+    "url": "https://github.com/Yoj16"
+  }, {
+    "name": "CV",
+    "icon": "fa-solid fa-file-pdf",
+    "url": "https://joyheu.fr/works/CV-Joy-Heurtaux.pdf"
+  }
+]

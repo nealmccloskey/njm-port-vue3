@@ -1,0 +1,127 @@
+.carousel {
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.carousel * {
+  box-sizing: border-box;
+}
+
+.carousel__track {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.carousel__viewport {
+  overflow: hidden;
+}
+.carousel__sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+:root {
+  /* Color */
+  --vc-clr-primary: #1757a4;
+  --vc-clr-secondary: #f7a721;
+  --vc-clr-white: #ffffff;
+
+  /* Icon */
+  --vc-icn-width: 100%;
+
+  /* Navigation */
+  --vc-nav-width: 50px;
+  --vc-nav-color: #ffffff;
+  --vc-nav-background-color: var(--vc-clr-primary);
+
+  /* Pagination */
+  --vc-pgn-width: 10px;
+  --vc-pgn-height: 5px;
+  --vc-pgn-margin: 5px;
+  --vc-pgn-border-radius: 0;
+  --vc-pgn-background-color: var(--vc-clr-secondary);
+  --vc-pgn-active-color: var(--vc-clr-primary);
+}
+.carousel__slide {
+  scroll-snap-stop: auto;
+  flex-shrink: 0;
+  margin: 0;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel__icon {
+  width: var(--vc-icn-width);
+  height: var(--vc-icn-width);
+  fill: var(--vt-c-shape-2);
+}
+.carousel__pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+}
+.carousel__pagination-button {
+  margin: var(--vc-pgn-margin);
+  width: var(--vc-pgn-width);
+  height: var(--vc-pgn-height);
+  border: 0;
+  cursor: pointer;
+  background-color: var(--vt-c-shape-2);
+}
+
+.carousel__pagination-button--active {
+  background-color: var(--vt-c-shape-2-darkest);
+}
+.carousel__prev,
+.carousel__next {
+  background-color: transparent;
+  border-radius: var(--vc-nav-width);
+  width: var(--vc-nav-width);
+  height: var(--vc-nav-width);
+  text-align: center;
+  font-size: calc(var(--vc-nav-width) * 2 / 3);
+  padding: 0;
+  color: var(--vc-nav-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 0;
+  cursor: pointer;
+}
+
+.carousel__prev {
+  top: 50%;
+  left: calc(var(--vc-nav-width) / -2);
+  transform: translate(-50%, -50%);
+}
+
+.carousel__next {
+  top: 50%;
+  right: calc(var(--vc-nav-width) / -2);
+  transform: translate(50%, -50%);
+}
+
+.carousel--rtl .carousel__prev {
+  left: auto;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.carousel--rtl .carousel__next {
+  right: auto;
+  left: 0;
+  transform: translate(-50%, -50%);
+}

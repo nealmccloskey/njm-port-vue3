@@ -1,0 +1,75 @@
+[
+  {
+    "type": "Site vitrine Vue3",
+    "project": "Olivier Heurtaux Artisan",
+    "img": "site-papa.png",
+    "desc": "Site vitrine pour une entreprise d'électricité présentant leurs domaines d'interventions.",
+    "icons": ["fa-brands fa-vuejs", "fa-brands fa-html5", "fa-brands fa-css3"],
+    "url": "https://oheurtaux-artisan.fr/",
+    "git": false,
+    "flipped": false
+  }, {
+    "type": "Application PHP POO MVC",
+    "project": "Blog",
+    "img": "blog.png",
+    "desc": "Application conçu en POO/MVC avec PHP pour afficher des articles et en créer.",
+    "icons": ["fa-brands fa-php", "fa-solid fa-database"],
+    "url": "https://joyheu.fr/works/blog",
+    "git": "https://gitlab.com/Jojo_16/blog",
+    "flipped": false
+  }, {
+    "type": "Application React/Typescript",
+    "project": "Userverse",
+    "img": "userverse.png",
+    "icons": ["fa-brands fa-react", "fa-brands fa-js", "fa-brands fa-bootstrap"],
+    "desc": "Application connectée à JSONPlaceholder API permettant d'afficher une liste d'utilisateur ainsi que d'en créer.",
+    "url": "https://joyheu.fr/works/userverse",
+    "gith": "https://github.com/Yoj16/userverse/",
+    "flipped": false
+  }, {
+    "type": "Application Vue2 avec API",
+    "project": "Application Prévision Météo",
+    "img": "meteo.jpg",
+    "icons": ["fa-brands fa-js", "fa-brands fa-html5", "fa-brands fa-css3"],
+    "desc": "Application connectée à une API permettant d'obtenir la prévision météo du jour ou des heures grâce au code Insee.",
+    "url": "https://joyheu.fr/works/meteo-app-vue2",
+    "git": "https://gitlab.com/Jojo_16/meteo-app-vue2",
+    "flipped": false
+  }, {
+    "type": "Site portfolio Vue3",
+    "project": "Portfolio",
+    "img": "portfolio.png",
+    "desc": "Portfolio de présentation de mon parcours et de mes expériences.",
+    "icons": ["fa-brands fa-vuejs", "fa-brands fa-html5", "fa-brands fa-css3"],
+    "url": false,
+    "git": "https://gitlab.com/Jojo_16/portfolio-vue3",
+    "flipped": false
+  }, {
+    "type": "Application JS avec API",
+    "project": "Application TodoList",
+    "img": "todo.jpg",
+    "desc": "TodoList permettant de créer des tâches, de les supprimer et de les filtrer au besoin grâce à l'API.",
+    "icons": ["fa-brands fa-js", "fa-brands fa-html5", "fa-brands fa-css3"],
+    "url": "https://joyheu.fr/works/todo-js",
+    "git": "https://gitlab.com/Jojo_16/todo-js",
+    "flipped": false
+  }, {
+    "type": "Devines le nombre",
+    "project": "Application Jeu du nombre",
+    "img": "guess-number.jpg",
+    "desc": "Jeu Javascript créant un nombre aléatoirement que l'utilisateur doit trouver en 10 tours maximum.",
+    "icons": ["fa-brands fa-js", "fa-brands fa-html5", "fa-brands fa-css3"],
+    "url": "https://joyheu.fr/works/guess-my-number",
+    "git": "https://gitlab.com/Jojo_16/guess-my-number",
+    "flipped": false
+  }, {
+    "type": "Application JS de calcul",
+    "project": "Calculatrice à opérateur",
+    "img": "calc.jpg",
+    "desc": "Calculatrice permettant d'effectuer les calculs d'addition, soustraction, division et multiplication.",
+    "icons": ["fa-brands fa-js", "fa-brands fa-html5", "fa-brands fa-css3"],
+    "url": "https://joyheu.fr/works/calculatrice",
+    "git": "https://gitlab.com/Jojo_16/calculatrice",
+    "flipped": false
+  }
+]

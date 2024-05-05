@@ -1,0 +1,145 @@
+/* 
+Responsive Sizes
+<= 425px mobile
+> 425 et <= 768px tablet
+> 768 et <= 1024 laptop
+> 1024 laptop lg 
+*/
+
+@font-face {
+  font-family: "PlayfairDisplay-SemiBold";
+  src: url(@/assets/fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(@/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url(@/assets/fonts/Lato/Lato-Black.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Hind";
+  src: url(@/assets/fonts/Hind/Hind-Regular.ttf) format("truetype");
+}
+
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-f-heading: "Montserrat";
+  --vt-f-semi-heading: "Montserrat";
+  --vt-f-text-title: "Lato-Bold";
+  --vt-f-text: "Hind";
+  --vt-round-size: 30px;
+
+  
+  --vt-c-shape: #0029af;
+  --vt-c-shape-1: #005ffe;
+  --vt-c-shape-1-darkest: ;
+  --vt-c-shape-2: #f3c8c5;
+  --vt-c-shape-2-darkest: #B39391;
+  --vt-c-shape-3: #ffcc57;
+  --vt-c-shape-3-lightest: #FFE3A3;
+  
+
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1);
+
+  --section-gap: 160px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 170px;
+}
+
+body {
+  font-family: var(--vt-f-heading);
+  background-color: var(--color-background);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body * {
+  cursor: none;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+.cursor {
+  position: fixed;
+  background: #2128bd;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border-radius: 50%;
+  will-change: transform;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+  z-index: 10000;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #2128bd;
+}
+
+::selection {
+  color: #fff;
+  background: #2128bd;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  header,
+  main {
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+}

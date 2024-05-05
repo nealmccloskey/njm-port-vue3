@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Accueil",
+    "id": "home"
+  }, {
+    "name": "Réalisations",
+    "id": "projects"
+  }, {
+    "name": "Expériences",
+    "id": "jobs"
+  }
+]

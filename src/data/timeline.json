@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Concepteur Développeur d'Applications (BAC +3) en alternance",
+    "date": "Débute Septembre 2023 (durée 18 mois)",
+    "text": "Approfondissement de la programmation informatique, des outils et logiciels de développement et mobile, initiation webdesign et GameProd. Permet de faire l’acquisition de la méthodologie de travail et de gestion d’un projet de sa conception, en passant par sa programmation et son développement.<br> <a href='https://www.apformation.com/formation/concepteur-developpeur-d-applications-en-alternance' target='_blank'>En savoir plus</a>",
+    "location": "Formation par AP Formation - Toulouse (31)",
+    "animation": "fadeInLeft"
+  },
+  {
+    "name": "Développeuse Front-End",
+    "date": "Septembre 2023 à aujourd'hui",
+    "text": "- Développement d'applications avec React, Typescript et Sass<br>- Utilisation de l'outil Git<br>- Méthode Agile",
+    "location": "OKP4 - Toulouse (31)",
+    "animation": "fadeInRight"
+  },
+  {
+    "name": "Conseillère Commerciale à Distance",
+    "date": "Juillet 2021 à Août 2022",
+    "text": "- Gestion de la relation client (CRM)<br>- Vente<br>- Conseil",
+    "location": "MAIF - Labège (31)",
+    "animation": "fadeInRight"
+  },
+  {
+    "name": "Négociatrice de Sites Télécoms",
+    "date": "Juillet 2018 à Juin 2021",
+    "text": "- Effectuer les recherches de sites télécoms<br>- Contacter le ou les propriétaires, syndics de copropriété, bailleurs<br>- Négocier en vue de l'installation de la fibre<br>- Responsable du montage et du suivi des dossiers de validation",
+    "location": "Eiffage Energie Télécom Sud-Est - Signes (83)",
+    "animation": "fadeInRight"
+  },
+  {
+    "name": "Technicien BE Fibre Optique",
+    "date": "Avril 2018 à Juillet 2018",
+    "text": "- Etude de faisabilité de projet<br>- Répondre au cahier des charges, et réalisation la conception de plans<br>- Modifie les plans techniques par rapport au terrain",
+    "location": "Formation par le CCI Cantal - Manosque (04)",
+    "animation": "fadeInLeft"
+  },
+  {
+    "name": "BTS Agencement de l’Environnement Architectural (AEA)",
+    "date": "Septembre 2014  à Juillet 2016",
+    "location": "Ecole Boulle - Paris (75)",
+    "animation": "fadeInLeft"
+  },
+  {
+    "name": "BAC STD2A - Arts Appliqués",
+    "date": "Septembre 2012 à Juillet 2014",
+    "location": "Lycée Jeanne d’Arc - Rouen (76)",
+    "animation": "fadeInLeft"
+  }
+]
