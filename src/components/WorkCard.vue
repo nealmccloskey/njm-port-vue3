@@ -25,9 +25,9 @@
         <div class="icon-container">
           <font-awesome-icon v-for="icon in work.icons" size="4x" :icon="icon"/>
         </div>
-        <a v-if="work.url" :href="work.url" target="_blank"><font-awesome-icon size="lg" icon="fa-solid fa-link" />Voir en ligne</a>
-        <a v-if="work.git" :href="work.git" target="_blank"><font-awesome-icon size="lg" icon="fa-brands fa-gitlab" />Voir le code</a>
-        <a v-if="work.gith" :href="work.gith" target="_blank"><font-awesome-icon size="lg" icon="fa-brands fa-git" />Voir le code</a>
+        <a v-if="work.url" :href="work.url" target="_blank"><font-awesome-icon size="lg" icon="fa-solid fa-link" />View Online</a>
+        <a v-if="work.git" :href="work.git" target="_blank"><font-awesome-icon size="lg" icon="fa-brands fa-gitlab" />View Code</a>
+        <a v-if="work.gith" :href="work.gith" target="_blank"><font-awesome-icon size="lg" icon="fa-brands fa-git" />View Code</a>
       </div>
     </div>
 </template>

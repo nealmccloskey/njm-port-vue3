@@ -1,11 +1,11 @@
 <template>
   <div class="logo-container">
     <div class="two-line-block">
-      <h1>Joy</h1>
+      <h1>Neal</h1>
     </div>
     <div class="one-line-block">
       <div>
-        <p>Heurtaux</p>
+        <p>McCloskey</p>
       </div>
       <div>
         <p>Portfolio</p>

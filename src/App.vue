@@ -74,7 +74,7 @@
           <a v-for="item in homes" :href="`#${item.id}`">{{ item.name }}</a>
         </div>
         <div class="contact-container">
-          <a href="mailto: joy.heu@outlook.fr" target="_blank">Contactez-moi</a>
+          <a href="mailto: nealmccloskey@gmail.com" target="_blank">Contact Me</a>
         </div>
       </nav>
       <WelcomeBanner id="home"/>
