@@ -1,6 +1,5 @@
 <script>
   import { gsap } from "gsap/";
-
   import WorkCard from "./components/WorkCard.vue";
   import Logo from "./components/Logo.vue";
   import WelcomeBanner from "./components/WelcomeBanner.vue";
@@ -67,6 +66,7 @@
 <template>
   <div @mousemove="cursorMove">
     <div class="cursor"></div>
+
     <header>
       <nav class="menu-bar">
         <Logo/>
@@ -103,16 +103,17 @@
         <TimeLine :timeline-data="timelines" />
       </section>
     </main>
+
     <footer>
       <ContactContainer :contactData="contacts" :is-absolute="false"/>
     </footer>
+
   </div>
 </template>
 
 <style>
   @import "@/assets/base.css";
   @import "@/assets/carousel.css";
-  
   
   .menu-bar {
     display: flex;

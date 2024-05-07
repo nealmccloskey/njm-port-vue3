@@ -1,12 +1,12 @@
 [
   {
-    "name": "Accueil",
+    "name": "Home",
     "id": "home"
   }, {
-    "name": "Réalisations",
+    "name": "Projects",
     "id": "projects"
   }, {
-    "name": "Expériences",
+    "name": "Experience",
     "id": "jobs"
   }
 ]
