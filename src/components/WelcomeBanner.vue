@@ -2,18 +2,21 @@
   import { gsap } from "gsap";
 
   export default {
+    
     data() {
       return {
-        hello: 'Bonsoir',
+        hello: 'Good Evening!',
         userHours: new Date().getHours()
       }
     },
+    
     mounted() {
       console.log(this.userHours)
       if (this.userHours >= 5 && this.userHours < 18) {
-        this.hello = 'Bonjour'
+        this.hello = 'Welcome!'
       }
     },
+    
     methods: {
       headerAnime(evt) {
         const mouseX = evt.clientX;
@@ -33,15 +36,25 @@
 
 <template>
   <div class="banner-container" @mousemove="headerAnime">
+    
     <div class="shapes">
       <div class="shape shape-1"></div>
       <div class="shape shape-2"></div>
       <div class="shape shape-3"></div>
     </div>
+
     <div class="content">
-      <h1>{{ hello }}!</h1>
-      <h2>Je m'appelle Joy Heurtaux,<br>Je suis développeuse web full-stack en formation,<br>Je recherche une alternance pour ma licence débutée en septembre 2023.</h2>
+      <h1>{{ hello }}</h1>
+      <h2>
+        My name is Neal McCloskey,
+        <br>I am a experienced semiconductor manufacturing leader with a strong background in process improvement and production yield enhancement. 
+        Skilled in team leadership, process optimization, and project management. 
+        Recognized for driving key initiatives and achieving notable results. 
+        Proficient in various programming languages and tools. 
+        Seeking new opportunities to contribute expertise and make a positive impact in a dynamic environment.
+      </h2>
     </div>
+
   </div>
 </template>
 
