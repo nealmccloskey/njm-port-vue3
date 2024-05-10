@@ -57,16 +57,19 @@ export default {
       <!-- Greeting message -->
       <h1>{{ hello }}</h1>
       <!-- Personal description -->
-      <h2>
-        My name is Neal McCloskey,
-        <br />I am a experienced semiconductor manufacturing leader with a
-        strong background in process improvement and production yield
-        enhancement. Skilled in team leadership, process optimization, and
-        project management. Recognized for driving key initiatives and achieving
-        notable results. Proficient in various programming languages and tools.
-        Seeking new opportunities to contribute expertise and make a positive
-        impact in a dynamic environment.
-      </h2>
+      <div class="description">
+        <h2>
+          My name is Neal McCloskey,
+          <br />
+          I am a experienced semiconductor manufacturing leader with a strong
+          strong background in process improvement and production yield
+          enhancement. Skilled in team leadership, process optimization, and
+          project management. Recognized for driving key initiatives and
+          achieving notable results. Proficient in various programming languages
+          and tools. Seeking new opportunities to contribute expertise and make
+          a positive impact in a dynamic environment.
+        </h2>
+      </div>
     </div>
   </div>
 </template>
@@ -127,6 +130,11 @@ export default {
   width: 100%;
   background: var(--vt-c-white);
   mix-blend-mode: screen;
+}
+
+/* Styles for the description */
+.description {
+  width: 80vw;
 }
 
 /* Styles for the heading */
