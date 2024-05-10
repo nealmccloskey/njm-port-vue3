@@ -1,36 +1,68 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+// Import the createApp function from Vue
+import { createApp } from 'vue';
+
+// Import the main App component
+import App from './App.vue';
+
+// Import the VueAnimateOnScroll plugin
 import VueAnimateOnScroll from 'vue3-animate-onscroll';
 
-import "./assets/main.css";
+// Import the main CSS file
+import './assets/main.css';
 
-/* import the fontawesome core */
-import { library } from '@fortawesome/fontawesome-svg-core'
+// Import the FontAwesome library
+import { library } from '@fortawesome/fontawesome-svg-core';
 
-/* import font awesome icon component */
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faCss3, faGitlab, faHtml5, faJs, faLinkedin, faVuejs, faGithub, faReact, faBootstrap, faPhp } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faFilePdf, faLink, faRepeat, faDatabase } from "@fortawesome/free-solid-svg-icons";
+// Import the FontAwesomeIcon component
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
+// Import the brand icons from FontAwesome
+import {
+  faCss3,
+  faGitlab,
+  faHtml5,
+  faJs,
+  faLinkedin,
+  faVuejs,
+  faGithub,
+  faReact,
+  faBootstrap,
+  faPhp,
+} from '@fortawesome/free-brands-svg-icons';
 
-/* add icons to the library */
-library.add(faGitlab);
-library.add(faLinkedin);
-library.add(faEnvelope);
-library.add(faFilePdf);
-library.add(faRepeat);
-library.add(faLink);
-library.add(faVuejs);
-library.add(faHtml5);
-library.add(faCss3);
-library.add(faJs);
-library.add(faGithub);
-library.add(faBootstrap);
-library.add(faReact);
-library.add(faDatabase);
-library.add(faPhp);
+// Import the solid icons from FontAwesome
+import {
+  faEnvelope,
+  faFilePdf,
+  faLink,
+  faRepeat,
+  faDatabase,
+} from '@fortawesome/free-solid-svg-icons';
 
+// Add the imported icons to the FontAwesome library
+library.add(
+  faGitlab,
+  faLinkedin,
+  faEnvelope,
+  faFilePdf,
+  faRepeat,
+  faLink,
+  faVuejs,
+  faHtml5,
+  faCss3,
+  faJs,
+  faGithub,
+  faBootstrap,
+  faReact,
+  faDatabase,
+  faPhp
+);
+
+// Create a new Vue app with the App component
+// Register the FontAwesomeIcon component globally
+// Use the VueAnimateOnScroll plugin
+// Mount the app to the DOM element with the id "app"
 createApp(App)
-.component('font-awesome-icon', FontAwesomeIcon)
-.use(VueAnimateOnScroll)
-.mount("#app");
+  .component('font-awesome-icon', FontAwesomeIcon)
+  .use(VueAnimateOnScroll)
+  .mount('#app');

@@ -1,49 +1,86 @@
 [
   {
-    "name": "Concepteur Développeur d'Applications (BAC +3) en alternance",
-    "date": "Débute Septembre 2023 (durée 18 mois)",
-    "text": "Approfondissement de la programmation informatique, des outils et logiciels de développement et mobile, initiation webdesign et GameProd. Permet de faire l’acquisition de la méthodologie de travail et de gestion d’un projet de sa conception, en passant par sa programmation et son développement.<br> <a href='https://www.apformation.com/formation/concepteur-developpeur-d-applications-en-alternance' target='_blank'>En savoir plus</a>",
-    "location": "Formation par AP Formation - Toulouse (31)",
+    "name": "Etch Wafer Loss Quality Engineer / Software Developer  ",
+    "date": "2022 - 2024",
+    "text": "Provided visionary leadership to a dynamic team of software engineers, fostering collaboration with departmental representatives to review and meticulously analyze processing failures. Formulated strategic action plans to address quality issues proactively.<br> •\tInitiated the establishment of an internal task force dedicated to scrutinizing processing failure modes and reasons. This initiative aimed to enhance communication channels between equipment, processes, and various departmental teams.<br> •\tChampioned an interdepartmental audit of npw particle check SPC limits to ensure alignment with headquarters and customer requests, ensuring harmoniously integrating each unit part.<br> •\tDesigned and led comprehensive training courses on Advanced Process Control (APC) utilization within the Etch department, catering to multiple levels of understanding.<br> •\tDemonstrated unwavering leadership by guiding a group of four new software engineers through multiple department and team organizational changes.<br> •\tSuccessfully orchestrated the migration of multiple applications and databases from a local server to a cloud structure. This strategic move was in response to internal system management and access permission changes within the software development team.<br> •\tPioneered creating a groundbreaking email subscription application, enabling users to preview and control their email and report preferences. Multiple departments have adopted this innovative application method.<br> •\tExercised meticulous oversight by managing and maintaining 28 servers responsible for collecting and scrubbing data from various tool types, crucial for equipment fault analysis and process improvements.<br> •\tServed as the departmental representative in Quality & Reliability's \"Quality Bingo,\" driving quality improvement projects. Through strategic communication via departmental emails and TV slides, the team completed all assignments first and clinched the quality prize for the year.",
+    "location": "Samsung Austin SemiConductor (Austin, TX)",
     "animation": "fadeInLeft"
   },
   {
-    "name": "Développeuse Front-End",
-    "date": "Septembre 2023 à aujourd'hui",
-    "text": "- Développement d'applications avec React, Typescript et Sass<br>- Utilisation de l'outil Git<br>- Méthode Agile",
-    "location": "OKP4 - Toulouse (31)",
+    "name": "Etch Process Layer Owner",
+    "date": "2017 - 2022",
+    "text": "Provided invaluable mentorship to junior engineers, offering guidance in their daily tasks. Formulated and executed strategic initiatives to enhance process yield and reliability, reduce costs, and mitigate risks while promptly addressing manufacturing challenges.<br> •\tOversaw the seamless integration of new products (NPI) for the BEOL TEL team, including the creation and setup of new devices and support for ongoing new product developments.<br> •\tAssumed accountability for legacy devices (28/32/45nm) in the BEOL, managing their operation on Tokyo Electron (TEL) tools.<br> •\tServed as the team's Advanced Process Control (APC) master, spearheading key initiatives to ensure adherence to product manufacturing requirements and quality control standards.<br> •\tMeticulously monitored critical metro, Yield, and ET trends in collaboration with quality control and team members.<br> •\tDemonstrated leadership in successfully spearheading key projects, such as 5S initiatives, photoresist material changes, and temperature reductions, to address ET failures. Collaborated with external departments to qualify and manage interdepartmental improvement items.<br> •\tAchieved significant reductions in ET/ALPs related to scrap and EQP rundown, elevating production yield within the department and substantially minimizing qualification times to expedite tool return to production post-maintenance.<br> •\tRevolutionized wafer profiling across multiple departments by developing a comprehensive full-shot CD macro for statistical interpretation.<br> •\tUtilized extensive Excel Macro expertise to create multiple tools, providing crucial daily support to the team and department.",
+    "location": "Samsung Austin SemiConductor (Austin, TX)",
+    "animation": "fadeInLeft"
+  },
+  {
+    "name": "Rocky Horror @ Victoria Theatre - Scenic Design Assistant",
+    "date": "Fall 2016",
+    "text": "...",
+    "location": "Ray of Light (San Francisco, CA)",
     "animation": "fadeInRight"
   },
   {
-    "name": "Conseillère Commerciale à Distance",
-    "date": "Juillet 2021 à Août 2022",
-    "text": "- Gestion de la relation client (CRM)<br>- Vente<br>- Conseil",
-    "location": "MAIF - Labège (31)",
+    "name": "Cartier / Ralph Lauren - Project Assistant",
+    "date": "Summer 2016",
+    "text": "...",
+    "location": "Prodject (New York, NY)",
     "animation": "fadeInRight"
   },
   {
-    "name": "Négociatrice de Sites Télécoms",
-    "date": "Juillet 2018 à Juin 2021",
-    "text": "- Effectuer les recherches de sites télécoms<br>- Contacter le ou les propriétaires, syndics de copropriété, bailleurs<br>- Négocier en vue de l'installation de la fibre<br>- Responsable du montage et du suivi des dossiers de validation",
-    "location": "Eiffage Energie Télécom Sud-Est - Signes (83)",
+    "name": "Heathers @ Victoria Theatre - Scenic Design Assistant",
+    "date": "Summer 2015",
+    "text": "...",
+    "location": "Ray of Light (San Francisco, CA)",
     "animation": "fadeInRight"
   },
   {
-    "name": "Technicien BE Fibre Optique",
-    "date": "Avril 2018 à Juillet 2018",
-    "text": "- Etude de faisabilité de projet<br>- Répondre au cahier des charges, et réalisation la conception de plans<br>- Modifie les plans techniques par rapport au terrain",
-    "location": "Formation par le CCI Cantal - Manosque (04)",
+    "name": "Pilot Operations Specialist / Statistical Process Controls Engineer ",
+    "date": "2015 - 2016",
+    "text": "Developed and implemented manufacturing processes, protocols, and SOPs in preparation for the Biotech Startup moving from Series A to Series B funding. Maintained GMP protocols within a class 1000 cleanroom and trained new hires on the various chemical processes and safety regulations. Managed end-to-end wafer production process. Significantly enhanced process reproducibility by establishing a quantitative method to monitor a complex ~4 days process with over 40+ iterations; enabled identification of processing errors in real-time. Monitored environmental variables including temperature and airborne particles, and observed their impact on the process. Conducted time studies of the multiple steps within wafer production from start to finish to determine bottlenecks and areas of improvement based on operator standard deviation. Created statistical documentation by utilizing ellipsometry measurements to interpret complex experimental data and evaluated results. Created and initiated an SPC program utilizing VBA and Excel to monitor products during the manufacturing process following Six Sigma QC standards.",
+    "location": "HealthTell (Chandler, AZ)",
     "animation": "fadeInLeft"
   },
   {
-    "name": "BTS Agencement de l’Environnement Architectural (AEA)",
-    "date": "Septembre 2014  à Juillet 2016",
-    "location": "Ecole Boulle - Paris (75)",
+    "name": "MILK Studios Fashion Week - Project Assistant",
+    "date": "Spring 2015",
+    "text": "...",
+    "location": "Prodject (New York, NY)",
+    "animation": "fadeInRight"
+  },
+  {
+    "name": "Ralph Lauren Polo 4D - Project Assistant",
+    "date": "Fall 2014",
+    "text": "Assisted in the Ralph Lauren Polo 4D production, primarily creation of a 4D holographic water projector on the lake in order to follow city guidelines and customer requests.<br> <a href='https://youtu.be/0Kk8UTDXbTg?si=G7RO9pB52QlD5qdA' target='_blank'>Ralph Lauren Polo 4D Event Highlights</a>",
+    "location": "Prodject (New York, NY)",
+    "animation": "fadeInRight"
+  },
+  {
+    "name": "Applications Technician/Research Engineer",
+    "date": "2013 - 2014",
+    "text": "Developed / implemented a MS Access Program / Database to replace the old paper trail filing system for Quality Control Certificate of Analysis. Enhanced accuracy by creating defense lines which verified measurements were within spec when the QC tests were being inputed into the system. Facilitated data analysis between sites by deploying database nationally. Performed multiple analytical experiments including tests for categorization of resin products and accurately recorded relevant data. Assisted in the installation of complex diagnostics equipment.",
+    "location": " (Austin, TX)",
     "animation": "fadeInLeft"
   },
   {
-    "name": "BAC STD2A - Arts Appliqués",
-    "date": "Septembre 2012 à Juillet 2014",
-    "location": "Lycée Jeanne d’Arc - Rouen (76)",
+    "name": "Graduated from Worcester Polytechnic Institute",
+    "date": "Spring 2012",
+    "text": "Graduated with a Bachelor of Science in Chemical Engineering with minors in Math and Physics. Completed my senior capstone project in the field of computational chemistry. <br> <a href='https://digital.wpi.edu/downloads/np193b89c' target='_blank'>DFT Study on Platinum-Ruthenium Catalysts for Use in Methanol Fuel Cells</a>",
+    "location": "WPI (Worcester, MA)",
     "animation": "fadeInLeft"
+  },
+  {
+    "name": "Unit Operations Teaching Assistant",
+    "date": "2011 - 2012",
+    "text": "...",
+    "location": "WPI (Worcester, MA)",
+    "animation": "fadeInRight"
+  },
+  {
+    "name": "Subway - Assitant Manager",
+    "date": "2010 - 2013",
+    "text": "...",
+    "location": "Subway (Worcester, MA)",
+    "animation": "fadeInRight"
   }
 ]
