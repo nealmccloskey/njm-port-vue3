@@ -7,42 +7,42 @@ Responsive Sizes
 */
 
 @font-face {
-  font-family: "PlayfairDisplay-SemiBold";
-  src: url(@/assets/fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf) format("truetype");
+  font-family: 'PlayfairDisplay-SemiBold';
+  src: url(@/assets/fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf)
+    format('truetype');
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url(@/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+  font-family: 'Montserrat';
+  src: url(@/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+    format('truetype');
 }
 
 @font-face {
-  font-family: "Lato-Bold";
-  src: url(@/assets/fonts/Lato/Lato-Black.ttf) format("truetype");
+  font-family: 'Lato-Bold';
+  src: url(@/assets/fonts/Lato/Lato-Black.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "Hind";
-  src: url(@/assets/fonts/Hind/Hind-Regular.ttf) format("truetype");
+  font-family: 'Hind';
+  src: url(@/assets/fonts/Hind/Hind-Regular.ttf) format('truetype');
 }
 
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
-  --vt-f-heading: "Montserrat";
-  --vt-f-semi-heading: "Montserrat";
-  --vt-f-text-title: "Lato-Bold";
-  --vt-f-text: "Hind";
+  --vt-f-heading: 'Montserrat';
+  --vt-f-semi-heading: 'Montserrat';
+  --vt-f-text-title: 'Lato-Bold';
+  --vt-f-text: 'Hind';
   --vt-round-size: 30px;
 
-  
   --vt-c-shape: #0029af;
   --vt-c-shape-1: #005ffe;
   --vt-c-shape-1-darkest: ;
   --vt-c-shape-2: #f3c8c5;
-  --vt-c-shape-2-darkest: #B39391;
+  --vt-c-shape-2-darkest: #b39391;
   --vt-c-shape-3: #ffcc57;
-  --vt-c-shape-3-lightest: #FFE3A3;
-  
+  --vt-c-shape-3-lightest: #ffe3a3;
 
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
@@ -110,9 +110,9 @@ h2 {
   border-radius: 50%;
   will-change: transform;
   -webkit-user-select: none;
-    -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   pointer-events: none;
   z-index: 10000;
 }

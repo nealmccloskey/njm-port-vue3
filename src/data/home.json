@@ -2,10 +2,12 @@
   {
     "name": "Home",
     "id": "home"
-  }, {
+  },
+  {
     "name": "Projects",
     "id": "projects"
-  }, {
+  },
+  {
     "name": "Experience",
     "id": "jobs"
   }
