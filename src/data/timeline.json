@@ -14,23 +14,16 @@
     "animation": "fadeInLeft"
   },
   {
-    "name": "Rocky Horror @ Victoria Theatre - Scenic Design Assistant",
-    "date": "Fall 2016",
-    "text": "...",
-    "location": "Ray of Light (San Francisco, CA)",
-    "animation": "fadeInRight"
-  },
-  {
     "name": "Cartier / Ralph Lauren - Project Assistant",
     "date": "Summer 2016",
-    "text": "...",
+    "text": "Helped execute 2 major events during NY Fashion week. Was in charge of initial setup, production / monitoring during the events and teardown.<br> <a href='https://www.wsj.com/articles/ralph-lauren-takes-to-the-street-for-fashion-week-show-1473794635' target='_blank'>Ralph Lauren Madison Ave Show</a><br> <a href='https://www.thecut.com/2016/09/inside-the-cartier-mansion-party-at-new-york-fashion-week.html' target='_blank'>Cartier Re-opening After PArty</a>",
     "location": "Prodject (New York, NY)",
     "animation": "fadeInRight"
   },
   {
-    "name": "Heathers @ Victoria Theatre - Scenic Design Assistant",
-    "date": "Summer 2015",
-    "text": "...",
+    "name": "Victoria Theatre - Scenic Design Assistant",
+    "date": "Summer 2015 / Summer 2016",
+    "text": "Helped Scenic Designer with the creation of the set for Heathers the Musical and Rocky Horror Picture Show. <br> ",
     "location": "Ray of Light (San Francisco, CA)",
     "animation": "fadeInRight"
   },
@@ -67,20 +60,20 @@
     "date": "Spring 2012",
     "text": "Graduated with a Bachelor of Science in Chemical Engineering with minors in Math and Physics. Completed my senior capstone project in the field of computational chemistry. <br> <a href='https://digital.wpi.edu/downloads/np193b89c' target='_blank'>DFT Study on Platinum-Ruthenium Catalysts for Use in Methanol Fuel Cells</a>",
     "location": "WPI (Worcester, MA)",
-    "animation": "fadeInLeft"
+    "animation": "fadeInRight"
   },
   {
     "name": "Unit Operations Teaching Assistant",
     "date": "2011 - 2012",
     "text": "...",
     "location": "WPI (Worcester, MA)",
-    "animation": "fadeInRight"
+    "animation": "fadeInLeft"
   },
   {
     "name": "Subway - Assitant Manager",
     "date": "2010 - 2013",
     "text": "...",
     "location": "Subway (Worcester, MA)",
-    "animation": "fadeInRight"
+    "animation": "fadeInLeft"
   }
 ]
