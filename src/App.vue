@@ -39,6 +39,9 @@ export default {
       timelines: timelineData,
       homes: homeData,
       contacts: contactData,
+
+      // State for showing contact info
+      showContactInfo: false,
     };
   },
   components: {
@@ -54,6 +57,17 @@ export default {
     TimeLine,
   },
   methods: {
+    // Method to handle outside click
+    handleOutsideClick(event) {
+      if (!this.$refs.contactContainer.contains(event.target)) {
+        this.showContactInfo = false;
+      }
+    },
+    toggleContactInfo(event) {
+      event.stopPropagation();
+      this.showContactInfo = !this.showContactInfo;
+    },
+
     // Method to move cursor
     cursorMove(evt) {
       const mouseX = evt.clientX;
@@ -65,6 +79,14 @@ export default {
         y: mouseY,
       });
     },
+  },
+  mounted() {
+    // Add event listener when component is mounted
+    document.addEventListener('click', this.handleOutsideClick);
+  },
+  beforeUnmount() {
+    // Remove event listener before component is destroyed
+    document.removeEventListener('click', this.handleOutsideClick);
   },
 };
 </script>
@@ -84,16 +106,23 @@ export default {
         <!-- Navigation links -->
         <div class="nav-bar">
           <!-- Looping through the homes data to create navigation links -->
-          <a v-for="item in homes" :key="item.id" :href="`#${item.id}`">{{
-            item.name
-          }}</a>
+          <a v-for="item in homes" :key="item.id" :href="`#${item.id}`">{{ item.name }}</a>
         </div>
         <!-- Contact link -->
         <div class="contact-container">
           <!-- Email link -->
-          <a href="mailto: nealmccloskey@gmail.com" target="_blank"
-            >Contact Me</a
+          <a href="#" @click.prevent="toggleContactInfo">Contact Me</a>
+          <!-- Contact info dropdown -->
+          <div
+            v-show="showContactInfo"
+            class="contact-info-dropdown"
+            ref="contactContainer"
           >
+            <!-- Add your contact info here -->
+            <p>Email: nealmccloskey@gmail.com</p>
+            <p>Phone: 602-317-8400</p>
+            <!-- Add more contact info as needed -->
+          </div>
         </div>
       </nav>
 
@@ -197,9 +226,14 @@ header {
 }
 
 .contact-container {
+  position: relative;
   background-color: var(--vt-c-shape-2);
   padding: 8px 12px;
   border-radius: 5px;
+}
+
+.contact-info-dropdown {
+  position: absolute;
 }
 
 .contact-container a {
