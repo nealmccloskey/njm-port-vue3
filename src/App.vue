@@ -119,8 +119,8 @@ export default {
             ref="contactContainer"
           >
             <!-- Add your contact info here -->
-            <p>Email: nealmccloskey@gmail.com</p>
-            <p>Phone: 602-317-8400</p>
+            <p>nealmccloskey@gmail.com</p>
+            <p>602-317-8400</p>
             <!-- Add more contact info as needed -->
           </div>
         </div>
@@ -234,6 +234,8 @@ header {
 
 .contact-info-dropdown {
   position: absolute;
+  top: 150%;
+  left: 0%;
 }
 
 .contact-container a {
@@ -264,8 +266,25 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
+  .menu-bar {
+    padding: 1.2em 15px 3.5em;
+  }
+
   .nav-bar {
     display: none;
+  }
+
+  .contact-info-dropdown {
+    position: absolute;
+    width: 200%;
+    top: 100%;
+    left: -100%;
+    padding: 0;
+    text-align: right;
+  }
+
+  .contact-info-dropdown p {
+    margin: 0.2em 0; /* adjust as needed */
   }
 }
 </style>

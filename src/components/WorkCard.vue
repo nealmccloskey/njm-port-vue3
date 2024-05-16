@@ -6,8 +6,18 @@ export default {
     // 'work' prop which is an object
     work: Object,
   },
+  // Define the component's data
+  data() {
+    return {
+      flipped: false,
+    };
+  },
   // Define the methods that the component uses
-  methods: {},
+  methods: {
+    toggleFlip() {
+      this.flipped = !this.flipped;
+    },
+  },
 };
 </script>
 
@@ -15,11 +25,7 @@ export default {
   <!-- Root element of the component -->
   <!-- Dynamically add 'is-flipped' class based on 'flipped' prop -->
   <!-- Toggle 'flipped' on click -->
-  <div
-    class="card"
-    :class="{ 'is-flipped': work.flipped }"
-    @click="flipped = !flipped"
-  >
+  <div class="card" :class="{ 'is-flipped': flipped }" @click="toggleFlip">
     <!-- Front of the card -->
     <div class="card-container front">
       <div>

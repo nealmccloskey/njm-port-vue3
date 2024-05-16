@@ -29,7 +29,7 @@ Responsive Sizes
 }
 
 /* color palette from <https://github.com/vuejs/theme> */
-:root {
+/* :root {
   --vt-f-heading: 'Montserrat';
   --vt-f-semi-heading: 'Montserrat';
   --vt-f-text-title: 'Lato-Bold';
@@ -45,6 +45,42 @@ Responsive Sizes
   --vt-c-shape-3-lightest: #ffe3a3;
 
   --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+} */
+
+:root {
+  --vt-f-heading: 'Montserrat';
+  --vt-f-semi-heading: 'Montserrat';
+  --vt-f-text-title: 'Lato-Bold';
+  --vt-f-text: 'Hind';
+  --vt-round-size: 30px;
+
+  --vt-c-shape: #31667A;
+  --vt-c-shape-1: #4793AF;
+  --vt-c-shape-1-darkest: ;
+  --vt-c-shape-2: #D0ADAA;
+  --vt-c-shape-2-darkest: #8B322C;
+  --vt-c-shape-3: #DD5746;
+  --vt-c-shape-3-lightest: #FFC470;
+
+  --vt-c-white: #C7DEE7;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
 
@@ -103,7 +139,7 @@ h2 {
 
 .cursor {
   position: fixed;
-  background: #2128bd;
+  background: #29434D;
   width: 20px;
   height: 20px;
   margin: -10px 0 0 -10px;
@@ -119,12 +155,12 @@ h2 {
 
 ::-moz-selection {
   color: #fff;
-  background: #2128bd;
+  background: #29434D;
 }
 
 ::selection {
   color: #fff;
-  background: #2128bd;
+  background: #29434D;
 }
 
 @media screen and (max-width: 768px) {
