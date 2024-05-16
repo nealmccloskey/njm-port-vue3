@@ -86,7 +86,7 @@ export default {
   position: relative;
   height: 100vh;
   width: 100%;
-  background: #2128bd;
+  background: #67A9C2;
   overflow: hidden;
 }
 
@@ -159,7 +159,7 @@ h1 {
 /* Responsive styles for mobiles */
 @media screen and (max-width: 425px) {
   .banner-container h1 {
-    font-size: 4rem;
+    font-size: 3.7rem;
   }
   .banner-container h2 {
     font-size: 1.1rem;
