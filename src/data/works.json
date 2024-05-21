@@ -1,86 +1,52 @@
 [
   {
-    "type": "Site vitrine Vue3",
-    "project": "Olivier Heurtaux Artisan",
-    "img": "site-papa.png",
-    "desc": "Site vitrine pour une entreprise d'électricité présentant leurs domaines d'interventions.",
+    "project": "Platinum-Ruthenium Methanol Fuel Cell",
+    "type": " CP2K (Density Functional Theory)",
+    "img": "dft.jpg",
+    "desc": "Investigated the surface bonding energies of each of the molecules involved in the methanol oxidation reaction on multiple Platinum / Ruthenium surfaces using density functional theory. This analysis can be used to model the efficiencies of various surfaces and help develope an optimal catalyst surface structure for direct methanol fuel cells.",
+    "url": "https://digital.wpi.edu/downloads/np193b89c",
+    "flipped": false
+  },
+  {
+    "project": "Certificate of Analysis DB",
+    "type": "",
+    "img": "coa.png",
+    "desc": "Used Microsoft Access to create a application/database for Certificate of Analysis (COA) data. This application allows for easy data entry, data retrieval, and data analysis. The application is designed to be user friendly and efficient for the user inputting test results and flagging any items out of spec.",
+    "icons": ["fa-brands fa-microsoft", "fa-solid fa-database"],
+    "flipped": false
+  },
+  {
+    "project": "Ellipsometry SPC Program",
+    "type": "MS Excel Macro / VBA Script",
+    "img": "spc.png",
+    "desc": "Created a Microsoft Excel macro to automate the Statistical Process Control (SPC) calculations for ellipsometry data. This macro allows for easy data entry and analysis of the data immediately after data entry. The macro also generates a control chart to monitor the process and flag any items out of spec.",
+    "icons": ["fa-brands fa-microsoft", "fa-solid fa-database"],
+    "flipped": false
+  },
+  {
+    "project": "Wafer Profile Program",
+    "type": "MS Excel Macro / VBA Script",
+    "img": "waferprofile.jpg",
+    "desc": "Created a Microsoft Excel macro to pull, analyze and plot wafer profile data. This macro allowed users to quickly visualize crittical dimensions across the entire wafer as well as pull all images from the databse to see if there are any metrology issues.",
+    "icons": ["fa-brands fa-microsoft"],
+    "flipped": false
+  },
+  {
+    "project": "Internal Wafer Loss Quality Task Force",
+    "type": "Team Leader",
+    "img": "5whys.png",
+    "desc": "Created a team of representatives from each EQP and Process group to investigate the root cause of internal wafer loss. The team used the 5 Whys method to determine the root causes of the internal wafer loss and developed a plan to reduce quality losses.",
+    "icons": ["fa-brands fa-microsoft", "fa-solid fa-database"],
+    "flipped": false
+  },
+  {
+    "project": "Personal Portfolio",
+    "type": "Vue3 Website Creation",
+    "img": "njmport.jpg",
+    "desc": "Created personal portfolio website using Vue3. This website is designed to showcase my projects and skills. The website is designed to be user friendly and easy to navigate. The website is also designed to be responsive and work on multiple devices. Originally cloned project from gitlab, moved to gitHub and published using Netlify with domain name bought on porkbun. Many thanks to the original code provider Joy Heurtaux",
     "icons": ["fa-brands fa-vuejs", "fa-brands fa-html5", "fa-brands fa-css3"],
-    "url": "https://oheurtaux-artisan.fr/",
-    "git": false,
-    "flipped": false
-  },
-  {
-    "type": "Application PHP POO MVC",
-    "project": "Blog",
-    "img": "blog.png",
-    "desc": "Application conçu en POO/MVC avec PHP pour afficher des articles et en créer.",
-    "icons": ["fa-brands fa-php", "fa-solid fa-database"],
-    "url": "https://joyheu.fr/works/blog",
-    "git": "https://gitlab.com/Jojo_16/blog",
-    "flipped": false
-  },
-  {
-    "type": "Application React/Typescript",
-    "project": "Userverse",
-    "img": "userverse.png",
-    "icons": [
-      "fa-brands fa-react",
-      "fa-brands fa-js",
-      "fa-brands fa-bootstrap"
-    ],
-    "desc": "Application connectée à JSONPlaceholder API permettant d'afficher une liste d'utilisateur ainsi que d'en créer.",
-    "url": "https://joyheu.fr/works/userverse",
-    "gith": "https://github.com/Yoj16/userverse/",
-    "flipped": false
-  },
-  {
-    "type": "Application Vue2 avec API",
-    "project": "Application Prévision Météo",
-    "img": "meteo.jpg",
-    "icons": ["fa-brands fa-js", "fa-brands fa-html5", "fa-brands fa-css3"],
-    "desc": "Application connectée à une API permettant d'obtenir la prévision météo du jour ou des heures grâce au code Insee.",
-    "url": "https://joyheu.fr/works/meteo-app-vue2",
-    "git": "https://gitlab.com/Jojo_16/meteo-app-vue2",
-    "flipped": false
-  },
-  {
-    "type": "Site portfolio Vue3",
-    "project": "Portfolio",
-    "img": "portfolio.png",
-    "desc": "Portfolio de présentation de mon parcours et de mes expériences.",
-    "icons": ["fa-brands fa-vuejs", "fa-brands fa-html5", "fa-brands fa-css3"],
-    "url": false,
-    "git": "https://gitlab.com/Jojo_16/portfolio-vue3",
-    "flipped": false
-  },
-  {
-    "type": "Application JS avec API",
-    "project": "Application TodoList",
-    "img": "todo.jpg",
-    "desc": "TodoList permettant de créer des tâches, de les supprimer et de les filtrer au besoin grâce à l'API.",
-    "icons": ["fa-brands fa-js", "fa-brands fa-html5", "fa-brands fa-css3"],
-    "url": "https://joyheu.fr/works/todo-js",
-    "git": "https://gitlab.com/Jojo_16/todo-js",
-    "flipped": false
-  },
-  {
-    "type": "Devines le nombre",
-    "project": "Application Jeu du nombre",
-    "img": "guess-number.jpg",
-    "desc": "Jeu Javascript créant un nombre aléatoirement que l'utilisateur doit trouver en 10 tours maximum.",
-    "icons": ["fa-brands fa-js", "fa-brands fa-html5", "fa-brands fa-css3"],
-    "url": "https://joyheu.fr/works/guess-my-number",
-    "git": "https://gitlab.com/Jojo_16/guess-my-number",
-    "flipped": false
-  },
-  {
-    "type": "Application JS de calcul",
-    "project": "Calculatrice à opérateur",
-    "img": "calc.jpg",
-    "desc": "Calculatrice permettant d'effectuer les calculs d'addition, soustraction, division et multiplication.",
-    "icons": ["fa-brands fa-js", "fa-brands fa-html5", "fa-brands fa-css3"],
-    "url": "https://joyheu.fr/works/calculatrice",
-    "git": "https://gitlab.com/Jojo_16/calculatrice",
+    "url": "https://gitlab.com/Jojo_16/portfolio-vue3",
+    "gith": "https://github.com/nealmccloskey/njm-port-vue3",
     "flipped": false
   }
 ]

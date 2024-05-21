@@ -28,6 +28,7 @@ import {
   faReact,
   faBootstrap,
   faPhp,
+  faMicrosoft,
 } from '@fortawesome/free-brands-svg-icons';
 
 // Import the solid icons from FontAwesome
@@ -55,7 +56,8 @@ library.add(
   faBootstrap,
   faReact,
   faDatabase,
-  faPhp
+  faPhp,
+  faMicrosoft,
 );
 
 // Create a new Vue app with the App component
