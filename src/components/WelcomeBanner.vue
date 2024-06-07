@@ -62,7 +62,7 @@ export default {
           My name is Neal McCloskey,
           <br />
           I am a experienced semiconductor manufacturing leader with a strong
-          strong background in process improvement and production yield
+          background in process improvement and production yield
           enhancement. Skilled in team leadership, process optimization, and
           project management. Recognized for driving key initiatives and
           achieving notable results. Proficient in various programming languages
