@@ -75,5 +75,12 @@
     "text": "...",
     "location": "Subway (Worcester, MA)",
     "animation": "fadeInLeft"
+  },
+  {
+    "name": "Received Eagle Scout Award",
+    "date": "Spring 2007",
+    "text": "Completed Eagle Scout project by helping the local Habitat for Humanity by building large storage containers for housing blueprints (must be stored for 7+ years).",
+    "location": "BoA (Phoenix, AZ)",
+    "animation": "fadeInRight"
   }
 ]
